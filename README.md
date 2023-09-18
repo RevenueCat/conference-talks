@@ -4,4 +4,4 @@ This is the home for slides, code samples, and links to video records for confer
 ## Past Talks
 | Date | Conference | Speaker | Talk |
 | ---- | ---------- | ------- | ---- |
-| 2023-09-14 | NSSpain | Mark Villacampa | [How to build great paywalls](/talks/2023-09-14-NSSpain/README.md) |
+| 2023-09-14 | NSSpain | Mark Villacampa | [How to build great paywalls](/talks/2023-09-14-NSSpain) |
