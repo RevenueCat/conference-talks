@@ -1,0 +1,92 @@
+{
+  "feed": [
+    {
+      "id": "header-module",
+      "module": {
+        "imageUrl": "https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/temp/sleeping-cat-transparent.png",
+        "title": "Pawwall Pro"
+      },
+      "type": "header"
+    },
+    {
+      "id": "module-01",
+      "module": {
+        "features": [
+          {
+            "description": "Enjoy an uninterrupted app experience without any annoying advertisements.",
+            "name": "Ad-Free Experience",
+            "sfSymbol": "bolt.fill"
+          },
+          {
+            "description": "Download content for offline access, perfect for when you're on the go or in areas with limited connectivity.",
+            "name": "Offline Mode",
+            "sfSymbol": "icloud.slash.fill"
+          },
+          {
+            "description": "Access premium content available only to subscribers, including articles, videos, and more.",
+            "name": "Exclusive Content",
+            "sfSymbol": "star.fill"
+          }
+        ],
+        "title": "Features"
+      },
+      "type": "features"
+    },
+    {
+      "id": "module-02",
+      "module": {
+        "testimonials": [
+          {
+            "name": "Furrnando Alonso",
+            "reviewText": "PawWall Pro is a must-have app for every pet owner!"
+          },
+          {
+            "name": "Catrick Stewart",
+            "reviewText": "I can't get enough of PawWall Pro!"
+          }
+        ],
+        "title": "Testimonials"
+      },
+      "type": "testimonial"
+    },
+    {
+      "id": "module-03",
+      "module": {
+        "chartRows": [
+          {
+            "isFree": true,
+            "isPro": true,
+            "name": "Ad-Free Experience"
+          },
+          {
+            "isFree": true,
+            "isPro": true,
+            "name": "Offline Mode"
+          },
+          {
+            "isFree": false,
+            "isPro": true,
+            "name": "Exclusive Content"
+          },
+          {
+            "isFree": false,
+            "isPro": true,
+            "name": "Early Access"
+          },
+          {
+            "isFree": false,
+            "isPro": true,
+            "name": "Priority Customer Support"
+          },
+          {
+            "isFree": true,
+            "isPro": true,
+            "name": "Cross-Device Syncing"
+          }
+        ],
+        "title": "Chart"
+      },
+      "type": "chart"
+    }
+  ]
+}
