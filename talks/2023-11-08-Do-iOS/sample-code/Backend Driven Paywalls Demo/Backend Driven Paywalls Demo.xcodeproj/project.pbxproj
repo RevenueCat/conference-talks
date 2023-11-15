@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3E15BB2AEAE5A1007AF0AD /* Backend_Driven_Paywalls_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3E15BA2AEAE5A1007AF0AD /* Backend_Driven_Paywalls_DemoApp.swift */; };
+		CB3E15BD2AEAE5A1007AF0AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3E15BC2AEAE5A1007AF0AD /* ContentView.swift */; };
+		CB3E15BF2AEAE5A2007AF0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3E15BE2AEAE5A2007AF0AD /* Assets.xcassets */; };
+		CB3E15C22AEAE5A2007AF0AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3E15C12AEAE5A2007AF0AD /* Preview Assets.xcassets */; };
+		CB3E15CA2AEAFB0E007AF0AD /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CB3E15C92AEAFB0E007AF0AD /* RevenueCat */; };
+		CB3E15CC2AEAFB0E007AF0AD /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB3E15CB2AEAFB0E007AF0AD /* RevenueCatUI */; };
+		CB3E15CE2AEB19A8007AF0AD /* StoreKitConfig.storekit in Resources */ = {isa = PBXBuildFile; fileRef = CB3E15CD2AEB19A8007AF0AD /* StoreKitConfig.storekit */; };
+		CB4427042B051B5E002E3819 /* paywall-metadata-example.json in Resources */ = {isa = PBXBuildFile; fileRef = CB4427032B051B5E002E3819 /* paywall-metadata-example.json */; };
+		CB5210552AF195450098C09B /* CustomPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210542AF195450098C09B /* CustomPaywallView.swift */; };
+		CB5210582AF197760098C09B /* Marketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210572AF197760098C09B /* Marketing.swift */; };
+		CB52105A2AF197920098C09B /* PaywallMarketingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210592AF197920098C09B /* PaywallMarketingView1.swift */; };
+		CB52105C2AF197BB0098C09B /* PaywallMarketingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52105B2AF197BB0098C09B /* PaywallMarketingView2.swift */; };
+		CB52105E2AF197F00098C09B /* PaywallMarketingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52105D2AF197F00098C09B /* PaywallMarketingView3.swift */; };
+		CB5210602AF19FA00098C09B /* PaywallMarketingFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52105F2AF19FA00098C09B /* PaywallMarketingFeedView.swift */; };
+		CB5210632AF1A0EC0098C09B /* FeedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210622AF1A0EC0098C09B /* FeedModule.swift */; };
+		CB5210652AF2FB780098C09B /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210642AF2FB780098C09B /* SubscriptionService.swift */; };
+		CB5210682AF2FF630098C09B /* FeaturesModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210672AF2FF630098C09B /* FeaturesModuleView.swift */; };
+		CB52106A2AF301980098C09B /* DecodableFeedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210692AF301980098C09B /* DecodableFeedModule.swift */; };
+		CB52106D2AF4082E0098C09B /* FeaturesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52106C2AF4082E0098C09B /* FeaturesModule.swift */; };
+		CB5210732AF409200098C09B /* TestimonialsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210702AF4083E0098C09B /* TestimonialsModule.swift */; };
+		CB5210742AF409240098C09B /* TestimonialModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52106F2AF4083E0098C09B /* TestimonialModuleView.swift */; };
+		CB5210772AF42F2B0098C09B /* ChartModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210762AF42F2B0098C09B /* ChartModule.swift */; };
+		CB5210792AF42F950098C09B /* ChartModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5210782AF42F950098C09B /* ChartModuleView.swift */; };
+		FC59DDAD2AF7F80800482839 /* HeaderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC59DDAC2AF7F80800482839 /* HeaderModule.swift */; };
+		FC59DDAF2AF7F86200482839 /* HeaderModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC59DDAE2AF7F86200482839 /* HeaderModuleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3E15B72AEAE5A1007AF0AD /* Backend Driven Paywalls Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backend Driven Paywalls Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3E15BA2AEAE5A1007AF0AD /* Backend_Driven_Paywalls_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend_Driven_Paywalls_DemoApp.swift; sourceTree = "<group>"; };
+		CB3E15BC2AEAE5A1007AF0AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB3E15BE2AEAE5A2007AF0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3E15C12AEAE5A2007AF0AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB3E15CD2AEB19A8007AF0AD /* StoreKitConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfig.storekit; sourceTree = "<group>"; };
+		CB4427032B051B5E002E3819 /* paywall-metadata-example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "paywall-metadata-example.json"; sourceTree = "<group>"; };
+		CB5210542AF195450098C09B /* CustomPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaywallView.swift; sourceTree = "<group>"; };
+		CB5210572AF197760098C09B /* Marketing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marketing.swift; sourceTree = "<group>"; };
+		CB5210592AF197920098C09B /* PaywallMarketingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallMarketingView1.swift; sourceTree = "<group>"; };
+		CB52105B2AF197BB0098C09B /* PaywallMarketingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallMarketingView2.swift; sourceTree = "<group>"; };
+		CB52105D2AF197F00098C09B /* PaywallMarketingView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallMarketingView3.swift; sourceTree = "<group>"; };
+		CB52105F2AF19FA00098C09B /* PaywallMarketingFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallMarketingFeedView.swift; sourceTree = "<group>"; };
+		CB5210622AF1A0EC0098C09B /* FeedModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModule.swift; sourceTree = "<group>"; };
+		CB5210642AF2FB780098C09B /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		CB5210672AF2FF630098C09B /* FeaturesModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesModuleView.swift; sourceTree = "<group>"; };
+		CB5210692AF301980098C09B /* DecodableFeedModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableFeedModule.swift; sourceTree = "<group>"; };
+		CB52106C2AF4082E0098C09B /* FeaturesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesModule.swift; sourceTree = "<group>"; };
+		CB52106F2AF4083E0098C09B /* TestimonialModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialModuleView.swift; sourceTree = "<group>"; };
+		CB5210702AF4083E0098C09B /* TestimonialsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialsModule.swift; sourceTree = "<group>"; };
+		CB5210762AF42F2B0098C09B /* ChartModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModule.swift; sourceTree = "<group>"; };
+		CB5210782AF42F950098C09B /* ChartModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModuleView.swift; sourceTree = "<group>"; };
+		FC59DDAC2AF7F80800482839 /* HeaderModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModule.swift; sourceTree = "<group>"; };
+		FC59DDAE2AF7F86200482839 /* HeaderModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModuleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3E15B42AEAE5A1007AF0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3E15CC2AEAFB0E007AF0AD /* RevenueCatUI in Frameworks */,
+				CB3E15CA2AEAFB0E007AF0AD /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3E15AE2AEAE5A1007AF0AD = {
+			isa = PBXGroup;
+			children = (
+				CB3E15B92AEAE5A1007AF0AD /* Backend Driven Paywalls Demo */,
+				CB3E15B82AEAE5A1007AF0AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3E15B82AEAE5A1007AF0AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3E15B72AEAE5A1007AF0AD /* Backend Driven Paywalls Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3E15B92AEAE5A1007AF0AD /* Backend Driven Paywalls Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CB8CBEB42AFAD4DD003230CB /* Services */,
+				CB5210612AF19FD50098C09B /* PaywallFeed */,
+				CB5210562AF197600098C09B /* Marketing */,
+				CB3E15CD2AEB19A8007AF0AD /* StoreKitConfig.storekit */,
+				CB3E15BA2AEAE5A1007AF0AD /* Backend_Driven_Paywalls_DemoApp.swift */,
+				CB3E15BC2AEAE5A1007AF0AD /* ContentView.swift */,
+				CB5210542AF195450098C09B /* CustomPaywallView.swift */,
+				CB3E15BE2AEAE5A2007AF0AD /* Assets.xcassets */,
+				CB4427032B051B5E002E3819 /* paywall-metadata-example.json */,
+				CB3E15C02AEAE5A2007AF0AD /* Preview Content */,
+			);
+			path = "Backend Driven Paywalls Demo";
+			sourceTree = "<group>";
+		};
+		CB3E15C02AEAE5A2007AF0AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB3E15C12AEAE5A2007AF0AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB5210562AF197600098C09B /* Marketing */ = {
+			isa = PBXGroup;
+			children = (
+				CB5210572AF197760098C09B /* Marketing.swift */,
+				CB5210592AF197920098C09B /* PaywallMarketingView1.swift */,
+				CB52105B2AF197BB0098C09B /* PaywallMarketingView2.swift */,
+				CB52105D2AF197F00098C09B /* PaywallMarketingView3.swift */,
+			);
+			path = Marketing;
+			sourceTree = "<group>";
+		};
+		CB5210612AF19FD50098C09B /* PaywallFeed */ = {
+			isa = PBXGroup;
+			children = (
+				CB52105F2AF19FA00098C09B /* PaywallMarketingFeedView.swift */,
+				CB5210622AF1A0EC0098C09B /* FeedModule.swift */,
+				CB5210692AF301980098C09B /* DecodableFeedModule.swift */,
+				CB5210662AF2FF4B0098C09B /* Modules */,
+			);
+			path = PaywallFeed;
+			sourceTree = "<group>";
+		};
+		CB5210662AF2FF4B0098C09B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FC59DDAB2AF7F7F500482839 /* Header */,
+				CB5210752AF42DE30098C09B /* Chart */,
+				CB52106E2AF4083E0098C09B /* Testimonials */,
+				CB52106B2AF407EE0098C09B /* Features */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CB52106B2AF407EE0098C09B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CB5210672AF2FF630098C09B /* FeaturesModuleView.swift */,
+				CB52106C2AF4082E0098C09B /* FeaturesModule.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CB52106E2AF4083E0098C09B /* Testimonials */ = {
+			isa = PBXGroup;
+			children = (
+				CB52106F2AF4083E0098C09B /* TestimonialModuleView.swift */,
+				CB5210702AF4083E0098C09B /* TestimonialsModule.swift */,
+			);
+			path = Testimonials;
+			sourceTree = "<group>";
+		};
+		CB5210752AF42DE30098C09B /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				CB5210762AF42F2B0098C09B /* ChartModule.swift */,
+				CB5210782AF42F950098C09B /* ChartModuleView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		CB8CBEB42AFAD4DD003230CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB5210642AF2FB780098C09B /* SubscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC59DDAB2AF7F7F500482839 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FC59DDAC2AF7F80800482839 /* HeaderModule.swift */,
+				FC59DDAE2AF7F86200482839 /* HeaderModuleView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3E15B62AEAE5A1007AF0AD /* Backend Driven Paywalls Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3E15C52AEAE5A2007AF0AD /* Build configuration list for PBXNativeTarget "Backend Driven Paywalls Demo" */;
+			buildPhases = (
+				CB3E15B32AEAE5A1007AF0AD /* Sources */,
+				CB3E15B42AEAE5A1007AF0AD /* Frameworks */,
+				CB3E15B52AEAE5A1007AF0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Backend Driven Paywalls Demo";
+			packageProductDependencies = (
+				CB3E15C92AEAFB0E007AF0AD /* RevenueCat */,
+				CB3E15CB2AEAFB0E007AF0AD /* RevenueCatUI */,
+			);
+			productName = "Backend Driven Paywalls Demo";
+			productReference = CB3E15B72AEAE5A1007AF0AD /* Backend Driven Paywalls Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3E15AF2AEAE5A1007AF0AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CB3E15B62AEAE5A1007AF0AD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CB3E15B22AEAE5A1007AF0AD /* Build configuration list for PBXProject "Backend Driven Paywalls Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3E15AE2AEAE5A1007AF0AD;
+			packageReferences = (
+				CB3E15C82AEAFB0E007AF0AD /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			productRefGroup = CB3E15B82AEAE5A1007AF0AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3E15B62AEAE5A1007AF0AD /* Backend Driven Paywalls Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3E15B52AEAE5A1007AF0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3E15CE2AEB19A8007AF0AD /* StoreKitConfig.storekit in Resources */,
+				CB3E15C22AEAE5A2007AF0AD /* Preview Assets.xcassets in Resources */,
+				CB4427042B051B5E002E3819 /* paywall-metadata-example.json in Resources */,
+				CB3E15BF2AEAE5A2007AF0AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3E15B32AEAE5A1007AF0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5210742AF409240098C09B /* TestimonialModuleView.swift in Sources */,
+				CB5210792AF42F950098C09B /* ChartModuleView.swift in Sources */,
+				CB52105E2AF197F00098C09B /* PaywallMarketingView3.swift in Sources */,
+				CB5210632AF1A0EC0098C09B /* FeedModule.swift in Sources */,
+				FC59DDAD2AF7F80800482839 /* HeaderModule.swift in Sources */,
+				CB52105A2AF197920098C09B /* PaywallMarketingView1.swift in Sources */,
+				CB5210652AF2FB780098C09B /* SubscriptionService.swift in Sources */,
+				CB5210682AF2FF630098C09B /* FeaturesModuleView.swift in Sources */,
+				CB5210732AF409200098C09B /* TestimonialsModule.swift in Sources */,
+				CB5210552AF195450098C09B /* CustomPaywallView.swift in Sources */,
+				CB52106A2AF301980098C09B /* DecodableFeedModule.swift in Sources */,
+				CB5210772AF42F2B0098C09B /* ChartModule.swift in Sources */,
+				CB5210602AF19FA00098C09B /* PaywallMarketingFeedView.swift in Sources */,
+				CB5210582AF197760098C09B /* Marketing.swift in Sources */,
+				CB3E15BD2AEAE5A1007AF0AD /* ContentView.swift in Sources */,
+				CB3E15BB2AEAE5A1007AF0AD /* Backend_Driven_Paywalls_DemoApp.swift in Sources */,
+				CB52105C2AF197BB0098C09B /* PaywallMarketingView2.swift in Sources */,
+				CB52106D2AF4082E0098C09B /* FeaturesModule.swift in Sources */,
+				FC59DDAF2AF7F86200482839 /* HeaderModuleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB3E15C32AEAE5A2007AF0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3E15C42AEAE5A2007AF0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3E15C62AEAE5A2007AF0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backend Driven Paywalls Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SXR2327BM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charliemchapman.Backend-Driven-Paywalls-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3E15C72AEAE5A2007AF0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backend Driven Paywalls Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SXR2327BM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charliemchapman.Backend-Driven-Paywalls-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3E15B22AEAE5A1007AF0AD /* Build configuration list for PBXProject "Backend Driven Paywalls Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3E15C32AEAE5A2007AF0AD /* Debug */,
+				CB3E15C42AEAE5A2007AF0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3E15C52AEAE5A2007AF0AD /* Build configuration list for PBXNativeTarget "Backend Driven Paywalls Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3E15C62AEAE5A2007AF0AD /* Debug */,
+				CB3E15C72AEAE5A2007AF0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB3E15C82AEAFB0E007AF0AD /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB3E15C92AEAFB0E007AF0AD /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB3E15C82AEAFB0E007AF0AD /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		CB3E15CB2AEAFB0E007AF0AD /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB3E15C82AEAFB0E007AF0AD /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB3E15AF2AEAE5A1007AF0AD /* Project object */;
+}
