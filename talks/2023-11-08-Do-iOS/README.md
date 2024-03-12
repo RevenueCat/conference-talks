@@ -4,6 +4,8 @@
 
 At [Do iOS](https://do-ios.com/) in Amsterdam, Charlie Chapman gave the talk **Build Dynamic Paywalls Using Backend Driven Development**.
 
+Watch the full [video here](https://youtu.be/du6cQeEseXw).
+
 You can find the full slide deck here:
 * [Keynote](./2023-11-8%20Do%20iOS%20-%20Backend%20Driven%20Paywalls.key)
 * [PDF](./2023-11-8%20Do%20iOS%20-%20Backend%20Driven%20Paywalls.pdf)
